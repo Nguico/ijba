@@ -91,7 +91,7 @@ export default class Board extends Component {
                     <Element name="CHAP01-CITATION1.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-PHOTO1.png"></Element>
+                    <Video id="k5yBVnMJKNqZ6Rn1XAU" ratio="1.37"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-RATEE.png" index="p1"></Element>
@@ -101,15 +101,14 @@ export default class Board extends Component {
                     <Element name="CHAP01-PHOTO2.png"></Element>
                 </div>{*/}
                 <div className="Board__slide">
-                    <Video id="k5yBVnMJKNqZ6Rn1XAU" ratio="1.37"></Video>
+                    <Element name="CHAP01-PHOTO1.png"></Element>
                     <Element name="AP-CHAP01-FEMKE.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--middle">
                     <Edito content={this.props.datas.text[1].zone_4}></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_5} positionTop="37%"></Edito>
+                    <Video id="k4gBurrn3vCiRFn1XCr" ratio="1.37"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-MOTEUR.png"></Element>
@@ -151,7 +150,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_9} positionTop="45%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k4gBurrn3vCiRFn1XCr" ratio="1.37"></Video>
+                    <Edito content={this.props.datas.text[1].zone_5} positionTop="37%"></Edito>
                     <Element name="CHAP01-ZIG.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide js-board-doubleslide">
