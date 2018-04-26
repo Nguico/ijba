@@ -71,15 +71,19 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--bottom">
                 </div>
-                <div className="Board__slide Board__slide--middle js-board-doubleslide">
-                    <Edito content={this.props.datas.text[0].zone_2}></Edito>
+                <div className="Board__slide Board__slide--bottom">
+                    <Edito content={this.props.datas.text[0].zone_2} positionBottom="52%"></Edito>
+                    <Element name="liberos-francais.png" index="p1"></Element>
                 </div>
                 {/* CHAP 1 */}
                 <div className="Board__slide">
-                    <Skew position="left" name="CHAP01-TITRE.png" bg="CHAP01-OUVERTURE.png"></Skew>
+                    <Element name="henno.png" index="m1" positionLeft="10%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="AP-CHAP01-CARTE.png" index="m1"></Element>
+                    <Element name="exiga.png" index="m1" positionLeft="10%"></Element>
+                </div>
+                <div className="Board__slide">
+                    <Element name="grebennikov.png" index="m1" positionLeft="10%"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-GRANDJOUR.png" index="p1" positionLeft="-10%"></Element>
