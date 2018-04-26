@@ -118,9 +118,7 @@ export default class Board extends Component {
                     <StaticElement name="CHAP01-FEMKE-NB-TITRE.png" bg="CHAP01-FEMKE-NB.png" size="simple"></StaticElement>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CITATION3.png" index="p1"></Element>
-                    <Element name="CHAP01-CITATION3-VISAGE.png"></Element>
-                    <Edito content={this.props.datas.text[1].zone_6} positionTop="65%"></Edito>
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CHOC.png" index="p1"></Element>
