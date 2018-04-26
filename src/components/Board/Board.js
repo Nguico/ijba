@@ -56,11 +56,12 @@ export default class Board extends Component {
             <div id="board" className="Board" style={{marginTop:this.state.boardTop, left:0,  minWidth:this.state.slideWidth, height: this.state.boardHeight}}>
                 {/* CHAP 0 */}
                 <div className="Board__slide js-board-doubleslide">
-                    <Skew position="right" name="CHAP00-SOUS-TITRE.png" bg="CHAP00-OUVERTURE.png"></Skew>
+                    <Skew position="right" bg="CHAP00-OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide"></div>
                 <div className="Board__slide">
-                    <Element name="CHAP00-TITRE1.png" index="p1" positionLeft="-40%"></Element>
+                <Element name="CHAP00-TITRE1.png" index="p1" positionLeft="-40%"></Element>
+                </div>
+                <div className="Board__slide">
                     <Edito content={this.props.datas.text[0].zone_1} positionTop="37%"></Edito>
                     <Element name="AP-CHAP00-CONFETTIS.png" index="m2"></Element>
                 </div>
@@ -69,8 +70,6 @@ export default class Board extends Component {
                     <Element name="CHAP00-MASQUE.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Element name="CHAP00-CITATION1.png" index="p1" positionLeft="20%"></Element>
-                    <Element name="CHAP00-CARNAVAL2.png"></Element>
                 </div>
                 <div className="Board__slide Board__slide--middle js-board-doubleslide">
                     <Edito content={this.props.datas.text[0].zone_2}></Edito>
