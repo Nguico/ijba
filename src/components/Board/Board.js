@@ -87,9 +87,8 @@ export default class Board extends Component {
                 </div>
                 {/* PARTIE 1 */}
                 <div className="Board__slide">
-                    <Skew position="left" name="CHAP01-TITRE.png" bg="CHAP01-OUVERTURE.png"></Skew>
+                    <Skew position="right" name="CHAP01-TITRE.png" bg="CHAP01-OUVERTURE.png"></Skew>
                 </div>
-                <div className="Board__slide"></div>
                 <div className="Board__slide Board__slide--bottom">
                     <Edito content={this.props.datas.text[1].zone_2} positionBottom="52%"></Edito>
                     <Element name="CHAP01-CITATION1.png" index="p1"></Element>
