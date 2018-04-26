@@ -1,7 +1,7 @@
 .App {
   width: inherit;
   height: inherit;
-  background: #f8f8f8; }
+  background: linear-gradient(#198CFE, #59F1CF); }
   .App__swipeable {
     position: absolute;
     width: inherit;
