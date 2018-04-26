@@ -6,13 +6,13 @@
   padding: 0 15px; }
   @media (min-height: 480px) {
     .Text {
-      font-size: 23px;
-      font-weight: 600;
+      font-size: 20px;
+      font-weight: 500;
       line-height: 22px; } }
   @media (min-height: 640px) {
     .Text {
-      font-size: 23px;
-      font-weight: 600;
+      font-size: 20px;
+      font-weight: 500;
       line-height: 24px; } }
   @media (orientation: landscape) and (min-width: 640px) {
     .Text {

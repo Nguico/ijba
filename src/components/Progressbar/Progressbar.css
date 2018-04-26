@@ -9,5 +9,5 @@
   .Progressbar__value {
     width: 0%;
     height: inherit;
-    background: #c6aa57;
+    background: #fff;
     transition: width 0.6s cubic-bezier(0.39, 0.575, 0.565, 1); }
