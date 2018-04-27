@@ -101,9 +101,6 @@ export default class Board extends Component {
                     <Element name="CHAP01-RATEE.png" index="p1"></Element>
                     <Edito content={this.props.datas.text[1].zone_3} positionTop="35%"></Edito>
                 </div>
-                {/*}<div className="Board__slide">
-                    <Element name="CHAP01-PHOTO2.png"></Element>
-                </div>{*/}
                 <div className="Board__slide">
                     <Element name="CHAP01-PHOTO1.png"></Element>
                     <Element name="AP-CHAP01-FEMKE.png" index="m1"></Element>
@@ -127,8 +124,11 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CHOC.png" index="p1"></Element>
-                    <Element name="AP-CHAP01-ROUE-2.gif" index="m1"></Element>
                     <Edito content={this.props.datas.text[1].zone_7} positionTop="29%"></Edito>
+                </div>
+                {/* PARTIE 2 */}
+                <div className="Board__slide">
+                    <Skew position="right" name="CHAP02-TITRE.png" bg="CHAP02-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
                     <Element name="CHAP01-CITATION4.png" index="p1"></Element>
