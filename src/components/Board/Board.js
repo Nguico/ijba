@@ -70,9 +70,10 @@ export default class Board extends Component {
                     <Element name="CHAP00-MASQUE.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
+                <Edito content={this.props.datas.text[0].zone_2} positionBottom="10%"></Edito>
+                <Element name="gif1988.gif" index="p1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Edito content={this.props.datas.text[0].zone_2} positionBottom="51%"></Edito>
                     <Element name="liberos-francais.png" index="p1"></Element>
                 </div>
                 {/* CHAP 1 */}
