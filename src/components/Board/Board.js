@@ -115,11 +115,12 @@ export default class Board extends Component {
                     <Video id="k4gBurrn3vCiRFn1XCr" ratio="1.37"></Video>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-MOTEUR.png"></Element>
+                    <Element name="ngapeth.png"></Element>
                     <Element name="AP-CHAP01-ROUE-1.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <StaticElement name="CHAP01-FEMKE-NB-TITRE.png" bg="CHAP01-FEMKE-NB.png" size="simple"></StaticElement>
+                    <Element name="jenia.png"></Element>
+                    <Element name="AP-CHAP01-ROUE-1.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CABLES.png" index="p1"></Element>
