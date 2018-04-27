@@ -95,7 +95,7 @@ export default class Board extends Component {
                     <Element name="CHAP01-CITATION1.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k5yBVnMJKNqZ6Rn1XAU" ratio="1.37"></Video>
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-RATEE.png" index="p1"></Element>
@@ -109,22 +109,22 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_4}></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k4gBurrn3vCiRFn1XCr" ratio="1.37"></Video>
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
-                <div className="Board__slide">
-                    <Element name="ngapeth.png"></Element>
-                    <Element name="AP-CHAP01-ROUE-1.png" index="m1"></Element>
+                <div className="Board__slide Board__slide--bottom">
+                    <Element name="ngapeth.png" index="p1"></Element>
+                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="44%"></Edito>
                 </div>
-                <div className="Board__slide">
-                    <Element name="jenia.png"></Element>
-                    <Element name="AP-CHAP01-ROUE-1.png" index="m1"></Element>
+                <div className="Board__slide Board__slide--bottom">
+                    <Element name="jenia.png" index="p1"></Element>
+                    <Edito content={this.props.datas.text[1].zone_1} positionBottom="44%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CHOC.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_7} positionTop="29%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_7} positionTop="55%"></Edito>
                 </div>
                 {/* PARTIE 2 */}
                 <div className="Board__slide">
