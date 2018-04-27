@@ -112,12 +112,12 @@ export default class Board extends Component {
                     <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Element name="ngapeth.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="44%"></Edito>
+                <Element name="jenia.png" index="p1"></Element>
+                <Edito content={this.props.datas.text[1].zone_1} positionBottom="44%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Element name="jenia.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_1} positionBottom="44%"></Edito>
+                    <Element name="ngapeth.png" index="p1"></Element>
+                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="44%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CABLES.png" index="p1"></Element>
