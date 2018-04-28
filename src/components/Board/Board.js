@@ -124,47 +124,49 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CHOC.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_7} positionTop="55%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_7} positionTop="50%"></Edito>
                 </div>
                 {/* PARTIE 2 */}
                 <div className="Board__slide">
                     <Skew position="right" name="CHAP02-TITRE.png" bg="CHAP02-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Element name="CHAP01-CITATION4.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_8} positionBottom="44%"></Edito>
-                </div>
-                <div className="Board__slide">
-                    <Element name="CHAP01-SUPPORTER.png"></Element>
-                </div>
-                <div className="Board__slide">
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
                     <Element name="AP-CHAP01-MONTAGNE-OR-1.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CITATION5.png"></Element>
+                    <Element name="CHAP02-CULTURE-DEFENSE-TITRE.png" index="p1"></Element>
+                    <Element name="CHAP02-CULTURE-DEFENSE.png"></Element>
+                    <Edito content={this.props.datas.text[1].zone_6} positionTop="50%"></Edito>
                     <Element name="AP-CHAP01-MONTAGNE-OR-2.png" index="m2"></Element>
+                </div>
+                <div className="Board__slide">
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                </div>
+                <div className="Board__slide">
+                    <Element name="CHAP01-CITATION5.png"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CITATION6.png"></Element>
                 </div>
+                {/* PARTIE 3 */}
                 <div className="Board__slide">
-                    <Element name="CHAP01-NEERLANDAISE-TITRE.png" index="p1"></Element>
-                    <Element name="CHAP01-NEERLANDAISE.png"></Element>
-                    <Edito content={this.props.datas.text[1].zone_9} positionTop="45%"></Edito>
+                    <Skew position="right" name="CHAP03-TITRE.png" bg="CHAP03-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide">
-                    <Edito content={this.props.datas.text[1].zone_5} positionTop="37%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_8} positionTop="37%"></Edito>
                     <Element name="CHAP01-ZIG.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide js-board-doubleslide">
-                    <Element name="CHAP01-KOPPENBERG.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_10} positionTop="28%"></Edito>
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
-                {/* CHAP 2 */}
                 <div className="Board__slide">
-                    <Skew position="left" name="CHAP02-TITRE.png" bg="CHAP02-OUVERTURE.png"></Skew>
+                    <Edito content={this.props.datas.text[1].zone_9} positionTop="37%"></Edito>
+                    <Element name="CHAP01-ZIG.png" index="p1"></Element>
                 </div>
-                <div className="Board__slide"></div>
+                <div className="Board__slide js-board-doubleslide">
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                </div>
                 <div className="Board__slide">
                     <Element name="CHAP02-FETE.png" index="p1" positionLeft="-10%"></Element>
                     <Edito content={this.props.datas.text[2].zone_1} positionTop="29%"></Edito>
