@@ -167,81 +167,46 @@ export default class Board extends Component {
                 <div className="Board__slide js-board-doubleslide">
                     <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
-                <div className="Board__slide">
-                    <Element name="CHAP02-FETE.png" index="p1" positionLeft="-10%"></Element>
-                    <Edito content={this.props.datas.text[2].zone_1} positionTop="29%"></Edito>
+                <div className="Board__slide Board__slide--bottom">
+                    <Edito content={this.props.datas.text[2].zone_3} positionBottom="50%"></Edito>
+                    <Element name="AP-CHAP02-FRITES-1.png" index="p1" positionLeft="-50%"></Element>
+                    <Element name="CHAP02-PIGEON.png"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k27mDGIZTvRdUxn1XBM" ratio="1.37"></Video>
-                    <Element name="CHAP02-ZIG.png" index="m1" positionLeft="-25%"></Element>
+                </div>
+                <div className="Board__slide js-board-doubleslide">
+                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP02-AMI.png" index="p1"></Element>
                     <Edito content={this.props.datas.text[2].zone_2} positionTop="40%"></Edito>
                 </div>
+                <div className="Board__slide Board__slide--middle">
+                    <Element name="AP-CHAP02-FRITES-2.png" index="m1"></Element>
+                    <Edito content={this.props.datas.text[2].zone_4}></Edito>
+                </div>
+                {/* PARTIE 4 */}
+                <div className="Board__slide">
+                    <Skew position="right" name="CHAP04-TITRE.png" bg="CHAP04-OUVERTURE.png"></Skew>
+                </div>
                 <div className="Board__slide Board__slide--bottom">
                     <Edito content={this.props.datas.text[2].zone_3} positionBottom="50%"></Edito>
-                    <Element name="AP-CHAP02-FRITES-1.png" index="p1" positionLeft="-50%"></Element>
                     <Element name="CHAP02-PIGEON.png"></Element>
+                </div>
+                <div className="Board__slide">
+                    <Element name="CHAP02-AMI.png" index="p1"></Element>
+                    <Edito content={this.props.datas.text[2].zone_2} positionTop="40%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--middle">
                     <Element name="AP-CHAP02-FRITES-2.png" index="m1"></Element>
                     <Edito content={this.props.datas.text[2].zone_4}></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP02-GRANDFRERE.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[2].zone_5} positionTop="29%"></Edito>
-                    <Element name="AP-CHAP03-TRACES-BIG-NOIR.png" index="m1"></Element>
-                    <Element name="AP-CHAP03-TRACES-BIG-JAUNE.png" index="m2"></Element>
-                </div>
-                <div className="Board__slide Board__slide--middle">
-                    <Edito content={this.props.datas.text[2].zone_6}></Edito>
-                </div>
-                <div className="Board__slide">
-                    <Video id="k1DnGSfRTDorXdn1XDn" ratio="1.37"></Video>
-                </div>
-                <div className="Board__slide Board__slide--middle js-board-doubleslide">
-                    <Edito content={this.props.datas.text[2].zone_7}></Edito>
-                </div>
-                {/* CHAP 3 */}
-                <div className="Board__slide">
-                    <Skew position="left" name="CHAP03-TITRE.png" bg="CHAP03-OUVERTURE.png"></Skew>
-                </div>
-                <div className="Board__slide"></div>
-                <div className="Board__slide">
-                    <Element name="CHAP03-CYCLOCROSS.png" index="p1"></Element>
-                    <Element name="CHAP03-PORTRAIT-FEMKE.png"></Element>
-                    <Element name="AP-CHAP03-PORTRAIT-FEMKE.png" index="m2"></Element>
-                </div>
-                <div className="Board__slide Board__slide--middle">
-                    <Edito content={this.props.datas.text[3].zone_1}></Edito>
-                </div>
-                <div className="Board__slide">
-                    <StaticElement name="CHAP03-AVENDRE.png" bg="AP-CHAP03-AVENDRE.png" size="double"></StaticElement>
-                </div>
-                <div className="Board__slide Board__slide--middle">
-                    <Edito content={this.props.datas.text[3].zone_2}></Edito>
-                </div>
-                <div className="Board__slide Board__slide--middle">
-                    <Edito content={this.props.datas.text[3].zone_3}></Edito>
-                </div>
-                <div className="Board__slide">
-                    <Element name="CHAP03-VELO.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[3].zone_4} positionTop="48%"></Edito>
-                    <Element name="AP-CHAP03-CARTE.png" index="m1"></Element>
-                </div>
-                <div className="Board__slide Board__slide--middle">
-                    <Element name="AP-CHAP03-CHUTE.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[3].zone_5}></Edito>
-                </div>
-                <div className="Board__slide Board__slide--middle js-board-doubleslide">
-                    <Edito content={this.props.datas.text[3].zone_6}></Edito>
-                    <Element name="AP-CHAP03-PLUMES.png" index="m1"></Element>
-                </div>
-                <div className="Board__slide">
                     <Element name="AP-CHAP03-CAGE.png" index="m2"></Element>
                     <Skew position="left" bg="OURS.png"></Skew>
                 </div>
+                {/* <Video id="k1DnGSfRTDorXdn1XDn" ratio="1.37"></Video> */}
+                {/* <StaticElement name="CHAP03-AVENDRE.png" bg="AP-CHAP03-AVENDRE.png" size="double"></StaticElement> */}
                 <div className="Board__slide">
                     <Masthead />
                 </div>
