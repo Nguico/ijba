@@ -181,6 +181,7 @@ export default class Board extends Component {
                     <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                 </div>
                 <div className="Board__slide">
+                <Element name="infographie-libero.png" index="m1" positionLeft="20%"></Element>
                 <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                 </div>
                 <div className="Board__slide js-board-doubleslide">
