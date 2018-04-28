@@ -1,3 +1,4 @@
+/* eslint-disable */
 import config from '../../config';
 import React, { Component } from 'react';
 import Edito from '../Edito/Edito';
@@ -205,8 +206,6 @@ export default class Board extends Component {
                     <Element name="AP-CHAP03-CAGE.png" index="m2"></Element>
                     <Skew position="left" bg="OURS.png"></Skew>
                 </div>
-                {/* <Video id="k1DnGSfRTDorXdn1XDn" ratio="1.37"></Video> */}
-                {/* <StaticElement name="CHAP03-AVENDRE.png" bg="AP-CHAP03-AVENDRE.png" size="double"></StaticElement> */}
                 <div className="Board__slide">
                     <Masthead />
                 </div>
