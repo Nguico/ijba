@@ -186,7 +186,7 @@ export default class Board extends Component {
                 <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                 </div>
                 <div className="Board__slide js-board-doubleslide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k1hO9JuS5L0HJ9qFrFm" ratio="1.8"></Video>
                     <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                 </div>
                 <div className="Board__slide">
