@@ -111,8 +111,8 @@ export default class Board extends Component {
                     <Video id="k5LybC7VU1XCQmqFr2O" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Element name="ngapeth.png" index="p1"></Element>
-                    <Element name="ngapeth2.png" index="p1"></Element>
+                    <Element name="ngapeth.png"></Element>
+                    <Element name="ngapeth2.png" index="m1"></Element>
                     <Edito content={this.props.datas.text[1].zone_5} positionBottom="55%"></Edito>
                 </div>
                 <div className="Board__slide">
@@ -127,7 +127,7 @@ export default class Board extends Component {
                     <Video id="k7FdV9y5n9YSO7qFrs3" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-LUBE.png" index="p2"></Element>
+                    <Element name="CHAP01-LUBE.png" index="p1"></Element>
                     <Edito content={this.props.datas.text[1].zone_7} positionTop="50%"></Edito>
                 </div>
                 {/* PARTIE 2 */}
@@ -236,7 +236,7 @@ export default class Board extends Component {
                     <Element name="AP-CHAP04-FOND.png" index="m2"></Element>
                 </div>
                 <div className="Board__slide js-board-doubleslide">
-                    <Edito content={this.props.datas.text[2].zone_6}></Edito>
+                    <Edito content={this.props.datas.text[2].zone_6} positionTop="50%"></Edito>
                     <Element name="AP-CHAP04-FOND2.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide">
