@@ -108,7 +108,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_4}></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k5LybC7VU1XCQmqFr2O" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
                     <Element name="ngapeth.png" index="p1"></Element>
