@@ -36,7 +36,7 @@ export default class Element extends Component {
                     <span className="Masthead__details"><span className="Masthead__label">Correction :</span> Emir Harbi</span>
                 </div>
                 <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label">Photos :</span> L'Equipe, Tom Vander Heyden, P. van Hoorebeke (X Magazine) et Belga (Icon Sport)</span>
+                    <span className="Masthead__details"><span className="Masthead__label">Photos :</span> LEquipe, Tom Vander Heyden, P. van Hoorebeke (X Magazine) et Belga (Icon Sport)</span>
                 </div>
                 <div className="Masthead__item Masthead__item--full">
                     <span className="Masthead__details"><span className="Masthead__label">Archives vidéo :</span> VRT et UCI</span>
