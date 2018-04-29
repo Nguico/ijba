@@ -2,9 +2,8 @@
   width: inherit;
   height: inherit;
   background: linear-gradient(#198CFE, #59F1CF); }
-
-.App__swipeable {
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  -webkit-tap-highlight-color: transparent; }
+  .App__swipeable {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    -webkit-tap-highlight-color: transparent; }
