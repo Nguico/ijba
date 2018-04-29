@@ -112,7 +112,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide Board__slide--bottom">
                     <Element name="ngapeth.png"></Element>
-                    <Element name="ngapeth2.png" index="p2"></Element>
+                    <Element name="ngapeth2.png" index="p1"></Element>
                     <Edito content={this.props.datas.text[1].zone_5} positionBottom="55%"></Edito>
                 </div>
                 <div className="Board__slide">
@@ -235,11 +235,11 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[2].zone_5} positionTop="40%"></Edito>
                     <Element name="AP-CHAP04-FOND.png" index="m2"></Element>
                 </div>
-                <div className="Board__slide Board__slide--middle">
+                <div className="Board__slide js-board-doubleslide">
                     <Edito content={this.props.datas.text[2].zone_6}></Edito>
                     <Element name="AP-CHAP04-FOND2.png" index="m1"></Element>
                 </div>
-                <div className="Board__slide js-board-doubleslide">
+                <div className="Board__slide">
                     <Skew position="left" bg="OURS.png"></Skew>
                 </div>
                 <div className="Board__slide">
