@@ -119,7 +119,7 @@ export default class Board extends Component {
                 <Edito content={this.props.datas.text[1].zone_1} positionBottom="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k7FdV9y5n9YSO7qFrs3" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-CHOC.png" index="p1"></Element>
@@ -130,7 +130,7 @@ export default class Board extends Component {
                     <Skew position="right" name="CHAP02-TITRE.png" bg="CHAP02-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k1MJG9ytoknlxRqFruG" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP02-CULTURE-DEFENSE-TITRE.png" index="p1"></Element>
