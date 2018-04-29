@@ -80,14 +80,15 @@ export default class Board extends Component {
                     <Element name="henno.png" index="m1" positionLeft="10%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="exiga.png" index="m1" positionLeft="10%"></Element>
+                    <Element name="grebennikov.png" index="m1" positionLeft="10%"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="grebennikov.png" index="m1" positionLeft="10%"></Element>
+                    <Element name="exiga.png" index="m1" positionLeft="10%"></Element>
                 </div>
                 {/* PARTIE 1 */}
                 <div className="Board__slide">
                     <Skew position="right" name="CHAP01-TITRE.png" bg="CHAP01-OUVERTURE.png"></Skew>
+                    <Element name="AP-CHAP00-FOND.png" index="m2"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
                     <Edito content={this.props.datas.text[1].zone_2} positionBottom="52%"></Edito>
