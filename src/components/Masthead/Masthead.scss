@@ -18,11 +18,12 @@
         vertical-align:top;
         @include font(mediumCond, 18, 20);
         color:$color-explore;
-        width:48%;
+        width:20%;
         padding-right:2%;
         padding-top:0px;
 
         @media (orientation: landscape) and (min-width: $bp-phablet) {
+            width:48%;
             font-size:20px;
             line-height:28px;
             padding-top:0px;
@@ -76,7 +77,7 @@
         display:none;
 
         @media (min-height: $bp-phone) {
-            display:inline;
+            display:block;
         }
     }
 }
