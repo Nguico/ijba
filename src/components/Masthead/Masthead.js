@@ -11,38 +11,35 @@ export default class Element extends Component {
 
         return (
             <div className="Masthead">
+            <div className="Masthead__item">
+                <span className="Masthead__label">Directeur de la publication</span>
+                <span className="Masthead__details">Arnaud Schwartz</span>
+            </div>
+            <div className="Masthead__item">
+                <span className="Masthead__label">Conseillère rédaction</span>
+                <span className="Masthead__details">Rayya Roumanos</span>
+            </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Auteur</span>
-                    <span className="Masthead__details">Pierre Callewaert <a href="//twitter.com/callewaertp" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                    <span className="Masthead__label">Auteurs</span>
+                    <span className="Masthead__details">Pierre Barbin <a href="//twitter.com/pierre_bbn" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Florian Chaaban <a href="//twitter.com/florianchbn" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Kévin Gaignoux <a href="//twitter.com/kggnx" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Laure Giuily <a href="//twitter.com/lgiuily" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Jules Lonchampt <a href="//twitter.com/j_lonchampt" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Julie Lassale <a href="//twitter.com/julielslama" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Directeur artistique</span>
-                    <span className="Masthead__details">Raphaël Bonan <a href="//twitter.com/RaphaelBonan" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                    <span className="Masthead__label">Intégration / Graphisme</span>
+                    <span className="Masthead__details">Nicolas Guitard <a href="//twitter.com/nicogtrd" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Camille de Oliveira</span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Développeur</span>
-                    <span className="Masthead__details">Raphaël Dardeau <a href="//twitter.com/iron_dev" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                    <span className="Masthead__label">Photos</span>
+                    <span className="Masthead__details">L’Equipe, Associazione Sportiva Volley Lube, GFC Ajaccio Volley Ball, Christian Besson, Hélène Matrat, Florent Selvini.</span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Coordinateurs éditorial</span>
-                    <span className="Masthead__details">Rémy Fière <a href="//twitter.com/rem_le_germ" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
-                    <br />Aurélien Delfosse <a href="//twitter.com/auredelfosse" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
-                </div>
-                <div className="Masthead__item">
-                    <span className="Masthead__label"></span>
-                    <span className="Masthead__details"></span>
-                </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label">Correction :</span> Emir Harbi</span>
-                </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label">Photos :</span> LEquipe, Tom Vander Heyden, P. van Hoorebeke (X Magazine) et Belga (Icon Sport)</span>
-                </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label">Archives vidéo :</span> VRT et UCI</span>
-                </div>
-                <div className="Masthead__item Masthead__item--full">
-                    <span className="Masthead__details"><span className="Masthead__label">Remerciements :</span> Marc van der Beken (NADO Vlaanderen); Louis Chenaille (Union cycliste internationale) ; Philippe Mariën et Jos Smets (Koninglijke Belgische Wielrijdersbond) ; Linda De Leeuw et Alain van Driessche (VRT) ; Ed Hanssen.</span>
+                    <span className="Masthead__label">Musique</span>
+                    <span className="Masthead__details">Ben Jammin’ - Knwnasaplayer</span>
                 </div>
             </div>
         );
