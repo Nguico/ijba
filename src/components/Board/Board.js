@@ -58,13 +58,12 @@ export default class Board extends Component {
                 {/* INTRODUCTION */}
                 <div className="Board__slide Board__slide--white">
                     <Skew position="right" bg="CHAP00-OUVERTURE.png"></Skew>
-                    <Edito content={this.props.datas.text[2].zone_8} positionBottom="15%"></Edito>
                 </div>
                 <div className="Board__slide Board__slide--white">
                 <Edito content={this.props.datas.text[2].zone_3} positionBottom="30%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP00-BALLON.png" index="p1" positionLeft="-40%"></Element>
+                    <Element name="CHAP00-BALLON.png" index="p2" positionLeft="-40%"></Element>
                     <Edito content={this.props.datas.text[0].zone_1} positionTop="37%"></Edito>
                     <Element name="AP-CHAP00-TERRAIN.png" index="m2"></Element>
                 </div>
