@@ -56,7 +56,7 @@ export default class Board extends Component {
         return (
             <div id="board" className="Board" style={{marginTop:this.state.boardTop, left:0,  minWidth:this.state.slideWidth, height: this.state.boardHeight}}>
                 {/* INTRODUCTION */}
-                <div className="Board__slide js-board-doubleslide">
+                <div className="Board__slide">
                     <Skew position="right" bg="CHAP00-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide">
@@ -95,7 +95,7 @@ export default class Board extends Component {
                     <Element name="CHAP01-CITATION1.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k6aMyLk3WufMPHqFNW0" ratio="1"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-VOLLEY-PEAU.png" index="p1"></Element>
@@ -129,7 +129,7 @@ export default class Board extends Component {
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-LUBE.png" index="p1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_7} positionTop="50%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_7} positionTop="55%"></Edito>
                 </div>
                 {/* PARTIE 2 */}
                 <div className="Board__slide">
