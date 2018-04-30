@@ -21,7 +21,7 @@ export default class Element extends Component {
                     <br />Jules Lonchampt <a href="//twitter.com/j_lonchampt" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Intégration / Graphisme</span>
+                    <span className="Masthead__label">Intégration et Graphisme</span>
                     <span className="Masthead__details">Nicolas Guitard <a href="//twitter.com/nicogtrd" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
                     <br />Camille de Oliveira</span>
                 </div>
