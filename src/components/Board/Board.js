@@ -56,11 +56,12 @@ export default class Board extends Component {
         return (
             <div id="board" className="Board" style={{marginTop:this.state.boardTop, left:0,  minWidth:this.state.slideWidth, height: this.state.boardHeight}}>
                 {/* INTRODUCTION */}
-                <div className="Board__slide">
+                <div className="Board__slide Board__slide--white">
                     <Skew position="right" bg="CHAP00-OUVERTURE.png"></Skew>
+                    <Edito content={this.props.datas.text[2].zone_8} positionBottom="15%"></Edito>
                 </div>
-                <div className="Board__slide">
-                <Edito content={this.props.datas.text[2].zone_3} positionBottom="52%"></Edito>
+                <div className="Board__slide Board__slide--white">
+                <Edito content={this.props.datas.text[2].zone_3} positionBottom="30%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP00-BALLON.png" index="p1" positionLeft="-40%"></Element>
@@ -96,7 +97,7 @@ export default class Board extends Component {
                     <Element name="CHAP01-CITATION1.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k7gTP6R5USUIY4qFOBB" ratio="1"></Video>
+                    <Video id="kxydkhBRWDWAhDqFR1y" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-VOLLEY-PEAU.png" index="p1"></Element>
@@ -110,7 +111,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_4}></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k5LybC7VU1XCQmqFr2O" ratio="1.8"></Video>
+                    <Video id="k3UoOesuCMNua7qFSN8" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
                     <Element name="ngapeth.png"></Element>
@@ -118,7 +119,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_5} positionBottom="55%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="x6iofic" ratio="1"></Video>
                     <Element name="AP-CHAP01-JENIA.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
@@ -126,7 +127,7 @@ export default class Board extends Component {
                 <Edito content={this.props.datas.text[1].zone_1} positionBottom="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k7FdV9y5n9YSO7qFrs3" ratio="1.8"></Video>
+                    <Video id="k2DeAI1kypLDT2qFRp1" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-LUBE.png" index="p1"></Element>
@@ -138,7 +139,7 @@ export default class Board extends Component {
                     <Element name="AP-CHAP01-FOND.png" index="m2"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                    <Video id="k7aNQDt8K2n7lBqFyCi" ratio="1.8"></Video>
+                    <Video id="k4RGJ5YrKQ23lxqFReA" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP02-CULTURE-DEFENSE-TITRE.png" index="p1"></Element>
@@ -146,7 +147,7 @@ export default class Board extends Component {
                     <Edito content={this.props.datas.text[1].zone_6} positionTop="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="x6inz2d" ratio="1.8"></Video>
                     <Element name="AP-CHAP02-EXIGA.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
@@ -177,7 +178,7 @@ export default class Board extends Component {
                     <Element name="CHAP03-GREBENNIKOV.png"></Element>
                 </div>
                 <div className="Board__slide Board__slide--white">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k1wEfLXfGydFc0qFSYl" ratio="1.8"></Video>
                     <Element name="CHAP03-GRADIENT1.png" index="m1"></Element>
                     <Element name="AP-CHAP03-BALLONS.png" index="m1"></Element>
                 </div>
@@ -186,7 +187,7 @@ export default class Board extends Component {
                     <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                 </div>
                 <div className="Board__slide Board__slide--white">
-                    <Element name="CHAP01-CABLES.png" index="p1"></Element>
+                    <Video id="k3GDywKNZ08greqFRlF" ratio="1.8"></Video>
                     <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                     <Element name="AP-CHAP03-BALLON-VAGUE.png" index="m1"></Element>
                 </div>
@@ -205,12 +206,16 @@ export default class Board extends Component {
                 <Element name="AP-CHAP03-INTERDIT.png" index="m1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--white">
-                    <Video id="k1hO9JuS5L0HJ9qFrFm" ratio="1.8"></Video>
+                    <Video id="k6XTwVxjwCwpP5qFTA4" ratio="1"></Video>
                     <Element name="CHAP03-GRADIENT1.png" index="m3"></Element>
                 </div>
                 <div className="Board__slide Board__slide--white">
                     <Element name="CHAP03-ARGENT.png" index="p1"></Element>
                     <Edito content={this.props.datas.text[2].zone_2} positionTop="42%"></Edito>
+                    <Element name="CHAP03-GRADIENT.png" index="m3"></Element>
+                </div>
+                <div className="Board__slide Board__slide--white">
+                    <Edito content={this.props.datas.text[2].zone_7} positionTop="42%"></Edito>
                     <Element name="CHAP03-GRADIENT.png" index="m3"></Element>
                 </div>
                 {/* PARTIE 4 */}

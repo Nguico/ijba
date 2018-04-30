@@ -11,14 +11,6 @@ export default class Element extends Component {
 
         return (
             <div className="Masthead">
-            <div className="Masthead__item">
-                <span className="Masthead__label">Directeur de la publication</span>
-                <span className="Masthead__details">Arnaud Schwartz</span>
-            </div>
-            <div className="Masthead__item">
-                <span className="Masthead__label">Conseillère rédaction</span>
-                <span className="Masthead__details">Rayya Roumanos</span>
-            </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label">Auteurs</span>
                     <span className="Masthead__details">Pierre Barbin <a href="//twitter.com/pierre_bbn" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
@@ -40,6 +32,14 @@ export default class Element extends Component {
                 <div className="Masthead__item">
                     <span className="Masthead__label">Musique</span>
                     <span className="Masthead__details">Ben Jammin’ - Knwnasaplayer</span>
+                </div>
+                <div className="Masthead__item">
+                    <span className="Masthead__label">Conseillère rédaction</span>
+                    <span className="Masthead__details">Rayya Roumanos</span>
+                </div>
+                <div className="Masthead__item">
+                    <span className="Masthead__label">Directeur de la publication</span>
+                    <span className="Masthead__details">Arnaud Schwartz</span>
                 </div>
             </div>
         );
