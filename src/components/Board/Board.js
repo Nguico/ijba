@@ -95,7 +95,7 @@ export default class Board extends Component {
                     <Element name="CHAP01-CITATION1.png" index="p1"></Element>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k6aMyLk3WufMPHqFNW0" ratio="1"></Video>
+                    <Video id="k7gTP6R5USUIY4qFOBB" ratio="1"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-VOLLEY-PEAU.png" index="p1"></Element>
