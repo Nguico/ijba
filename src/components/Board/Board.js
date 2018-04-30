@@ -116,7 +116,7 @@ export default class Board extends Component {
                 <div className="Board__slide Board__slide--bottom">
                     <Element name="ngapeth.png"></Element>
                     <Element name="ngapeth2.png" index="m1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="40%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="45%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Video id="k1QLuZ0kTB7SXbqFTCs" ratio="1"></Video>
