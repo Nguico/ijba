@@ -71,7 +71,7 @@ export default class Board extends Component {
                     <Element name="CHAP00-GREBENNIKOV.png"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                <Edito content={this.props.datas.text[0].zone_2} positionBottom="15%"></Edito>
+                <Edito content={this.props.datas.text[0].zone_2} positionBottom="10%"></Edito>
                 <Element name="gif1988.gif" index="p1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
@@ -116,7 +116,7 @@ export default class Board extends Component {
                 <div className="Board__slide Board__slide--bottom">
                     <Element name="ngapeth.png"></Element>
                     <Element name="ngapeth2.png" index="m1"></Element>
-                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="55%"></Edito>
+                    <Edito content={this.props.datas.text[1].zone_5} positionBottom="47%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Video id="k1QLuZ0kTB7SXbqFTCs" ratio="1"></Video>
@@ -127,7 +127,7 @@ export default class Board extends Component {
                 <Edito content={this.props.datas.text[1].zone_1} positionBottom="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="x6iol34" ratio="1.8"></Video>
+                    <Video id="k7qC6okWpF6GpQqFVv2" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-LUBE.png" index="p1"></Element>

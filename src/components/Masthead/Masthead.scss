@@ -75,7 +75,7 @@
 
         display:none;
 
-        @media (min-height: $bp-phone) {
+        @media (max-height: $bp-phone) {
             display:block;
         }
     }
