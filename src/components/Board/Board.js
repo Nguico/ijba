@@ -106,8 +106,9 @@ export default class Board extends Component {
                     <Element name="CHAP01-PHOTO1.png"></Element>
                     <Element name="AP-CHAP01-FILET.png" index="m1"></Element>
                 </div>
-                <div className="Board__slide Board__slide--middle">
-                    <Edito content={this.props.datas.text[1].zone_4}></Edito>
+                <div className="Board__slide">
+                    <Element name="gifjenia.gif" index="p1"></Element>
+                    <Edito content={this.props.datas.text[1].zone_4} positionBottom="15%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Video id="k3UoOesuCMNua7qFSN8" ratio="1.8"></Video>
