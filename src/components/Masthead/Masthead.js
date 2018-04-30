@@ -17,8 +17,8 @@ export default class Element extends Component {
                     <br />Florian Chaaban <a href="//twitter.com/florianchbn" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
                     <br />Kévin Gaignoux <a href="//twitter.com/kggnx" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
                     <br />Laure Giuily <a href="//twitter.com/lgiuily" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
-                    <br />Jules Lonchampt <a href="//twitter.com/j_lonchampt" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
-                    <br />Julie Lassale <a href="//twitter.com/julielslama" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
+                    <br />Julie Lassale <a href="//twitter.com/julielslama" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a>
+                    <br />Jules Lonchampt <a href="//twitter.com/j_lonchampt" className="twitter-follow-button" data-show-count="false" data-lang="fr" data-dnt="true">Suivre</a></span>
                 </div>
                 <div className="Masthead__item">
                     <span className="Masthead__label">Intégration / Graphisme</span>
@@ -34,7 +34,7 @@ export default class Element extends Component {
                     <span className="Masthead__details">Ben Jammin’ - Knwnasaplayer</span>
                 </div>
                 <div className="Masthead__item">
-                    <span className="Masthead__label">Conseillère rédaction</span>
+                    <span className="Masthead__label">Conseillère de rédaction</span>
                     <span className="Masthead__details">Rayya Roumanos</span>
                 </div>
                 <div className="Masthead__item">

@@ -60,7 +60,7 @@ export default class Board extends Component {
                     <Skew position="right" bg="CHAP00-OUVERTURE.png"></Skew>
                 </div>
                 <div className="Board__slide Board__slide--white">
-                <Edito content={this.props.datas.text[2].zone_3} positionBottom="30%"></Edito>
+                <Edito content={this.props.datas.text[2].zone_3} positionBottom="25%"></Edito>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP00-BALLON.png" index="p2" positionLeft="-40%"></Element>
@@ -71,7 +71,7 @@ export default class Board extends Component {
                     <Element name="CHAP00-GREBENNIKOV.png"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
-                <Edito content={this.props.datas.text[0].zone_2} positionBottom="10%"></Edito>
+                <Edito content={this.props.datas.text[0].zone_2} positionBottom="15%"></Edito>
                 <Element name="gif1988.gif" index="p1"></Element>
                 </div>
                 <div className="Board__slide Board__slide--bottom">
@@ -127,7 +127,7 @@ export default class Board extends Component {
                 <Edito content={this.props.datas.text[1].zone_1} positionBottom="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k2DeAI1kypLDT2qFRp1" ratio="1.8"></Video>
+                    <Video id="x6iol34" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-LUBE.png" index="p1"></Element>
