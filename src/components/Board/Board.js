@@ -127,7 +127,7 @@ export default class Board extends Component {
                 <Edito content={this.props.datas.text[1].zone_1} positionBottom="50%"></Edito>
                 </div>
                 <div className="Board__slide">
-                    <Video id="k7qC6okWpF6GpQqFVv2" ratio="1.8"></Video>
+                    <Video id="k12xszAmveBdcNqGe0z" ratio="1.8"></Video>
                 </div>
                 <div className="Board__slide">
                     <Element name="CHAP01-LUBE.png" index="p1"></Element>
